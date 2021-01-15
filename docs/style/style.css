@@ -88,6 +88,35 @@ body {
   width: 100%;
 }
 
+.contenedor-preguntas {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  border-radius: 20px;
+  padding: 40px 20px 20px 20px;
+  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  height: 50vh;
+}
+
+.contenedor-preguntas .img-preguntas {
+  width: 50%;
+  display: block;
+}
+
+.contenedor-preguntas span {
+  width: 50%;
+}
+
+.contenedor-preguntas .preguntas {
+  color: #C20F2F;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
 footer {
   background-color: #C20F2F;
   width: 100%;
