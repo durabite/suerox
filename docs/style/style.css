@@ -8,8 +8,10 @@ body {
 .main {
   width: 100%;
   height: 100vh;
-  background: white;
-  background: radial-gradient(circle, white 0%, #38b1de 30%, #004a67 100%);
+  background-color: black;
+  background: url("../image/luces-bg.png"), radial-gradient(circle, white 0%, #38b1de 30%, #004a67 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .btn-comienzo {
