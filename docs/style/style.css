@@ -3,6 +3,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif !important;
+  font-size: 1em;
+}
+
+#logo-suerox {
+  width: 30%;
 }
 
 .main {
@@ -15,21 +20,21 @@ body {
 }
 
 .btn-comienzo {
-  background-color: #C20F2F;
+  background: url("../image/bg-btn.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
   color: white;
   outline: 0;
   border: 0;
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 10px 20px;
   border-radius: 30px;
   text-transform: uppercase;
   font-weight: bold;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
-}
-
-.btn-comienzo:hover {
-  background-color: #920821;
+  text-shadow: 2px 2px 0px #000000;
+  -webkit-box-shadow: 0px 4px 8px black;
+          box-shadow: 0px 4px 8px black;
 }
 
 .btn-comienzo:focus {
@@ -45,29 +50,28 @@ body {
           box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+  font-size: 2.5rem;
 }
 
-.container-form span {
+.container-form #primera-seccion-form {
   width: 100%;
-  display: block;
-  padding: 10px;
 }
 
-.container-form span label {
-  color: #000000;
-  font-size: 1.5rem;
+.container-form #primera-seccion-form label {
   font-weight: bold;
+  display: inline-block;
+  width: 20%;
 }
 
-.container-form span input {
-  width: 100%;
-  outline: 0;
+.container-form #primera-seccion-form input {
+  width: 70%;
+  height: 10%;
+  outline: none;
   border: none;
-  padding: 3px 16px;
-  border-radius: 2rem;
-  display: block;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .container-form a {
@@ -88,6 +92,14 @@ body {
   padding: 10px 20px;
   border-radius: 30px;
   width: 100%;
+}
+
+#globo {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
 }
 
 .contenedor-preguntas {
@@ -128,7 +140,7 @@ footer {
   position: fixed;
   bottom: 0;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
 }
 
 footer p {
