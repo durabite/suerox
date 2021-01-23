@@ -6,10 +6,6 @@ body {
   font-size: 1em;
 }
 
-#logo-suerox {
-  width: 30%;
-}
-
 .main {
   width: 100%;
   height: 100vh;
@@ -27,7 +23,7 @@ body {
   color: white;
   outline: 0;
   border: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 10px 20px;
   border-radius: 30px;
   text-transform: uppercase;
@@ -43,14 +39,19 @@ body {
 
 .container-form {
   background-color: rgba(255, 255, 255, 0.2);
-  width: 100%;
+  width: 80%;
   border-radius: 20px;
   padding: 40px 20px 20px 20px;
   -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  font-size: 2.5rem;
+  margin-top: 55px;
+}
+
+.container-form label {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .container-form #primera-seccion-form {
@@ -65,70 +66,35 @@ body {
 
 .container-form #primera-seccion-form input {
   width: 70%;
-  height: 10%;
   outline: none;
   border: none;
   border-radius: 20px;
   padding: 5px 20px;
   margin: 5px;
   background-color: rgba(255, 255, 255, 0.3);
-}
-
-.container-form a {
-  text-decoration: none;
-  display: block;
-  padding: 0;
-  margin-top: 2rem;
-}
-
-.container-form a button {
-  background-color: #C20F2F;
-  color: white;
-  text-transform: uppercase;
   font-size: 1.2rem;
-  font-weight: bold;
-  outline: 0;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 30px;
-  width: 100%;
+}
+
+.container-form .fradio {
+  padding: 15px 0;
+}
+
+.container-form .fradio input {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.texto-span {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 0 20px 0 0;
 }
 
 #globo {
-  width: 50%;
+  width: 30%;
   position: absolute;
-  top: 0;
-  right: 0;
-  display: none;
-}
-
-.contenedor-preguntas {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 100%;
-  border-radius: 20px;
-  padding: 40px 20px 20px 20px;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  height: 50vh;
-}
-
-.contenedor-preguntas .img-preguntas {
-  width: 50%;
-  display: block;
-}
-
-.contenedor-preguntas span {
-  width: 50%;
-}
-
-.contenedor-preguntas .preguntas {
-  color: #C20F2F;
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.8rem;
+  top: -50px;
+  right: -75px;
 }
 
 footer {
@@ -140,11 +106,17 @@ footer {
   position: fixed;
   bottom: 0;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 
 footer p {
   padding: 0;
   margin: 0;
+}
+
+@media screen and (min-width: 2160px) and (max-width: 2560px) {
+  #logo-suerox {
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
