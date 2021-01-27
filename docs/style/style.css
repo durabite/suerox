@@ -9,6 +9,10 @@ body {
   width: 25%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -133,6 +137,58 @@ body {
 
 #botellas-suerox {
   width: 40%;
+}
+
+#necesitas-suerox {
+  width: 75%;
+}
+
+.suerox-botellas-final {
+  width: 200px;
+  position: absolute;
+}
+
+.btn-x {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  outline: 0;
+  border-radius: 100%;
+  position: relative;
+  -webkit-box-shadow: 0px 4px 8px black;
+          box-shadow: 0px 4px 8px black;
+  background: url("../image/bg-btn.png");
+  background-size: 250%;
+  background-position: 50% 50%;
+}
+
+.btn-x #x {
+  position: absolute;
+  width: 65px;
+  left: -10px;
+  top: 15px;
+}
+
+.btn-x:focus {
+  outline: none;
+}
+
+#texto-btn-x {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-shadow: 2px 3px 1px #c20f2f;
+}
+
+#botella-izq {
+  left: 75px;
+  top: -290px;
+}
+
+#botella-der {
+  right: 75px;
+  top: -290px;
 }
 
 footer {
