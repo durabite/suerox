@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif !important;
+  background: rgba(0, 74, 103, 1) 100%;
 }
 #logo-suerox {
   width: 25%;
@@ -55,7 +56,7 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   width: 70%;
   border-radius: 20px;
-  padding: 40px 20px 20px 20px;
+  padding: 40px 20px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(5px);
   font-size: 2.5rem;
@@ -186,23 +187,385 @@ footer {
 }
 // Media Queries
 // Breakpoints
-@media screen and (min-width: 2160px) and (max-width: 2400px) {
-  
+@media screen and (min-width: 2160px) and (max-width: 2560px) {
+  #logo-suerox {
+    width: 40%;
+  }
+  .btn-comienzo {
+    font-size: 2.5rem;
+    margin-top: 40px;
+  }
+  footer {
+    font-size: 1.3rem;
+  }
+  // Formulario
+  #globo {
+    width: 500px;
+    top: -75px;
+    right: -145px;
+  }
+  .container-form {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .container-form #primera-seccion-form label {
+    font-size: 3rem;
+  }
+  .container-form #primera-seccion-form input {
+    width: 75%;
+    height: 60px;
+    font-size: 2rem;
+  }
+  .iconos-formulario {
+    width: 3.5rem;
+  }
+  .container-form .titulo-form {
+    font-size: 4rem;
+  }
+  .container-form .texto-span {
+    font-size: 2.5rem;
+  }
+  .container-form .input-radio {
+    width: 40px;
+    height: 40px;
+  }
+  #botellas-suerox {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  //Preguntas
+  .preguntas {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  //Final 
+  .suerox-botellas-final {
+    width: 300px ;
+  }
+  #botella-izq {
+    left: -130px;
+  }
+  #botella-der {
+    right: -130px;
+  }
+  .btn-x {
+    width: 100px;
+    height: 100px;
+  }
+  .btn-x #x {
+    width: 110px;
+  }
+  #texto-btn-x {
+    font-size: 3rem;
+  }
 }
 @media screen and (min-width: 1400px) and (max-width: 2159px) {
- 
+  #logo-suerox {
+    width: 25%;
+  }
+  .btn-comienzo {
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+  // Formulario
+  #globo {
+    width: 400px;
+    top: -60px;
+    right: -145px;
+  }
+  .container-form {
+    width: 80%;
+    margin-top: 55px;
+  }
+  .container-form #primera-seccion-form label {
+    font-size: 2rem;
+  }
+  .container-form #primera-seccion-form input {
+    width: 75%;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  .iconos-formulario {
+    width: 2.8rem;
+  }
+  .container-form .titulo-form {
+    font-size: 3rem;
+  }
+  .container-form .texto-span {
+    font-size: 2rem;
+  }
+  .container-form .input-radio {
+    width: 25px;
+    height: 25px;
+  }
+  #botellas-suerox {
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  //Preguntas
+  .preguntas {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  //Final 
+  .suerox-botellas-final {
+    width: 180px ;
+  }
+  #botella-izq {
+    left: 50px;
+    top: -320px;
+  }
+  #botella-der {
+    right: 50px;
+    top: -320px;
+  }
+  .btn-x {
+    width: 50px;
+    height: 50px;
+  }
+  .btn-x #x {
+    width: 55px;
+  }
+  #texto-btn-x {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  
+  #logo-suerox {
+    width: 25%;
+  }
+  .btn-comienzo {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
+  // Formulario
+  #globo {
+    width: 300px;
+    top: -45px;
+    right: -110px;
+  }
+  .container-form {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .container-form #primera-seccion-form label {
+    font-size: 2rem;
+  }
+  .container-form #primera-seccion-form input {
+    width: 75%;
+    height: 40px;
+    font-size: 1.3rem;
+  }
+  .iconos-formulario {
+    width: 2.2rem;
+  }
+  .container-form .titulo-form {
+    font-size: 2.5rem;
+  }
+  .container-form .texto-span {
+    font-size: 1.8rem;
+  }
+  .container-form .input-radio {
+    width: 20px;
+    height: 20px;
+  }
+  #botellas-suerox {
+    width: 80%;
+    margin-top: 50px;
+    display: none;
+  }
+
+  //Preguntas
+  .preguntas {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  //Final 
+  .suerox-botellas-final {
+    width: 150px;
+  }
+  #botella-izq {
+    left: 40px;
+    top: -320px
+  }
+  #botella-der {
+    right: 40px;
+    top: -320px
+  }
+  .btn-x {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .btn-x #x {
+    width: 45px;
+  }
+  #texto-btn-x {
+    font-size: 2rem;
+  }
 }
-@media screen and (min-width: 992px) and (max-width: 1199) {
- 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #logo-suerox {
+    width: 25%;
+  }
+  .btn-comienzo {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  footer {
+    font-size: 0.7rem;
+  }
+  // Formulario
+  #globo {
+    width: 250px;
+    top: -37px;
+    right: -100px;
+  }
+  .container-form {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .container-form #primera-seccion-form label {
+    font-size: 1.8rem;
+  }
+  .container-form #primera-seccion-form input {
+    width: 75%;
+    height: 35px;
+    font-size: 1rem;
+  }
+  .iconos-formulario {
+    width: 2rem;
+  }
+  .container-form .titulo-form {
+    font-size: 2.2rem;
+  }
+  .container-form .texto-span {
+    font-size: 1.5rem;
+  }
+  .container-form .input-radio {
+    width: 20px;
+    height: 20px;
+  }
+  #botellas-suerox {
+    width: 80%;
+    margin-top: 50px;
+    display: none;
+  }
+
+  //Preguntas
+  .preguntas {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  //Final 
+  .suerox-botellas-final {
+    width: 150px;
+  }
+  #botella-izq {
+    left: 40px;
+    top: -320px
+  }
+  #botella-der {
+    right: 40px;
+    top: -320px
+  }
+  .btn-x {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .btn-x #x {
+    width: 45px;
+  }
+  #texto-btn-x {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width:768px) and (max-width: 991px) {
- 
-}
-@media screen and (min-width: 600px) and (max-width: 767px) {
-  
+  .btn-comienzo {
+    font-size: 0.8rem;
+  }
+  footer {
+    font-size: 0.6rem;
+  }
+  // Formulario
+  #globo {
+    width: 250px;
+    top: -37px;
+    right: -100px;
+  }
+  .container-form {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .container-form #primera-seccion-form label {
+    font-size: 1.2rem;
+  }
+  .container-form #primera-seccion-form input {
+    width: 75%;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+  .iconos-formulario {
+    width: 1.5rem;
+  }
+  .container-form .titulo-form {
+    font-size: 1.5rem;
+  }
+  .container-form .texto-span {
+    font-size: 1rem;
+  }
+  .container-form .input-radio {
+    width: 15px;
+    height: 15px;
+  }
+  #botellas-suerox {
+    width: 80%;
+    margin-top: 50px;
+    display: none;
+  }
+
+  //Preguntas
+  .preguntas {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
+  //Final 
+  .suerox-botellas-final {
+    width: 100px;
+  }
+  #botella-izq {
+    left: 40px;
+    top: -250px
+  }
+  #botella-der {
+    right: 40px;
+    top: -250px
+  }
+  .btn-x {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .btn-x #x {
+    width: 45px;
+  }
+  #texto-btn-x {
+    font-size: 2rem;
+  }
 }
 
 // 2160 x 1620 píxeles resolucion ipad
